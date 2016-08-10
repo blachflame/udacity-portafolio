@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Portalfolio</string>
+    <string name="primeraOpcion">Popular Movies</string>
+    <string name="segundaOpcion">Stock Hawk</string>
+    <string name="terceraOpcion">Build it Bigger</string>
+    <string name="cuartaOpcion">Make Your App Material</string>
+    <string name="quintaOpcion">Go Ubiquitous</string>
+    <string name="sextaOpcion">Capstone</string>
+    <string name="titulo">My Nanodegree Apps!</string>
+
+
+</resources>

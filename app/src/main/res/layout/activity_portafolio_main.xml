@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffffff"
+    tools:context="com.cl.fenix.portalfolio.PortafolioMainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/titulo"
+        android:layout_margin="20dp"
+        android:id="@+id/titulo"
+        />
+
+    <Button
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:background="#7995A8"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_below="@id/titulo"
+        android:text="@string/primeraOpcion"
+        android:id="@+id/primeraOpcion"
+        android:layout_margin="10dp"
+
+        android:layout_centerHorizontal="true"
+         />
+
+
+    <Button
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:background="#7995A8"
+        android:textColor="#ffffff"
+        android:layout_below="@id/primeraOpcion"
+        android:layout_centerHorizontal="true"
+        android:text="@string/segundaOpcion"
+        android:id="@+id/segundaOpcion"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false" />
+
+    <Button
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:background="#7995A8"
+        android:textColor="#ffffff"
+
+        android:layout_below="@id/segundaOpcion"
+        android:layout_centerHorizontal="true"
+        android:text="@string/terceraOpcion"
+        android:id="@+id/terceraOpcion"
+        />
+
+
+    <Button
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:background="#7995A8"
+        android:textColor="#ffffff"
+        android:layout_below="@id/terceraOpcion"
+        android:layout_centerHorizontal="true"
+        android:text="@string/cuartaOpcion"
+        android:id="@+id/cuartaOpcion"
+        />
+
+    <Button
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:background="#7995A8"
+        android:textColor="#ffffff"
+        android:layout_margin="10dp"
+        android:layout_below="@id/cuartaOpcion"
+        android:layout_centerHorizontal="true"
+        android:text="@string/quintaOpcion"
+        android:id="@+id/quintaOpcion"
+        />
+    <Button
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:background="#7995A8"
+        android:textColor="#ffffff"
+        android:layout_margin="10dp"
+        android:layout_below="@id/quintaOpcion"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sextaOpcion"
+        android:id="@+id/sextaOpcion"
+        />
+
+
+</RelativeLayout>
