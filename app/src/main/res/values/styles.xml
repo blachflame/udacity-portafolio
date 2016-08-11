@@ -8,4 +8,16 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="botonPortafolio" parent="Base.Widget.AppCompat.Button">
+        <item name="android:layout_width">235dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">#7995A8</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_alignParentEnd">false</item>
+        <item name="android:layout_alignParentStart">false</item>
+    </style>
 </resources>
